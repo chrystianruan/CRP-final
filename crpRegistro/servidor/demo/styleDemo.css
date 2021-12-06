@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    margin-right: 44%;
+    margin-left: 35%;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 4%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+h3 {
+    text-align:left;
+}
+
+a{
+    text-decoration: none;
+}
+
+form {
+    background-color: rgba(0, 0, 0, .2);
+    padding: 10px;
+    margin-top: 1%;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-bottom: 1%;
+    border-radius: 10%;
+}
+
+fieldset {
+    border-radius: 10%;
+}
+
+h1 {
+    color: rgba(0, 0, 0, .6);
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+body {
+    margin-top: 1%;
+    background: linear-gradient(to left, rgb(220, 220,220), rgb(240, 240, 240));
+    text-align: center;
+}
+
+table {
+    background-color: rgba(0, 0, 0, .1);
+}
+
+tr {
+    line-height: 20px;
+}
+
+tr#tit { 
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, .5);
+    color: white;
+    font-size: 14px;
+}
+tr#itens{ 
+    text-align: justify;
+    background-color: rgba(0, 0, 0, .1);
+    font-size: 17px;
+    font-weight: lighter;
+}
+
+#orgObj {
+    color: red;
+    text-align: left;
+    font-weight: bolder;
+}
+
+button {
+    padding: 3px;
+    transition-duration: 0.4s;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+#asterisco {
+    color: red;
+}
+
+#telaInicial {
+    border-radius: 5%;
+    float: right;
+    margin: 18px;
+   font-size: medium;
+   padding: 8px;
+}
+
+#edit {
+    padding: 0px;
+    font-size: medium;   
+}
+
+#desc {
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+#indice {
+    padding: 7px;
+}
+
+img {
+    height: 30px;
+    width: 35px;
+}
+
+.floatLeft{float:left};
+
+
+

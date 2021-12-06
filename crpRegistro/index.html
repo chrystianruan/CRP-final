@@ -1,0 +1,209 @@
+
+        
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+            <link href="style.css" rel="stylesheet">
+            <link rel="preconnect" href="https://fonts.googleapis.com"> <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap" rel="stylesheet">
+            <link href="fontawesome/css/all.css" rel="stylesheet">
+            <link rel="shortcut icon" type="imagex/png" href="./imagens/icon-siga.ico">
+            <title>SIGA</title>
+<style>
+
+.crp{
+    color: #fff !important;
+    font-size: 22px !important;
+    float: center !important;
+}
+.logo-siga{
+    padding: 0;
+    margin-top: 10px;
+    margin: 4px;
+    height: 45px;
+    width: auto;
+}
+
+.logo-desc{
+    align-items: center;
+    margin: 4px;
+    padding: 10px 30px;
+    vertical-align: middle;
+    height: 45px;
+    width: 55%;
+}
+
+.logo{
+    height: 45px !important;
+    margin: 8px;
+    margin-left: 30px;
+}
+
+.logo-compr{
+    width: auto;
+    height: 150px;
+    margin: 4px;
+    margin-top: -44px;
+    margin-left: 550px;
+}
+
+.logo-compras{
+    height: 45px !important;
+    margin: 8px;
+    float: right;
+}
+
+.lembrar{
+    float: left;
+    margin: 8px;
+    font-size: 15px;
+    padding: 5px 0;
+}
+
+.inputLembrar{
+    background-color: #ecf0f1;
+    width: 15px;
+    height: 15px;
+    border-radius: 15px !important;
+    display: inline-block;
+}
+
+input[type="checkbox"]{
+    visibility: hidden;
+}
+
+input[type="checkbox"]:checked {
+    background-color: aqua !important;
+}
+
+.checkmark{
+    background-color: aqua !important;
+    width: 15px;
+    height: 15px;
+    border-radius: 15px !important;
+}
+.logo-gov{
+    height: 45px !important;
+    margin: 4px;
+    float: right;
+}
+
+.logo-rn{
+    width: auto;
+    height: 60px;
+    margin: 8px;
+    margin-top: 2px;
+    padding: 0 20px;
+    float: right;
+}
+
+.p-help{
+    color: #2da8a8;
+    line-height: 1.5rem;
+    font-size: 17px;
+}
+
+.strong-numero{
+    text-decoration: none !important;
+    color: #008b8b;
+}
+.p-sigla {
+    color: #fde962; 
+}
+
+.p-siga {
+    font-size: 15px;
+    text-align: center;
+    float: left;
+    height: 15px;
+    color: white;
+    line-height: 0.2rem;
+    margin-top: -2px;
+}
+
+.hr-p {
+    color: white;
+    width: 250px;
+    float: center;
+    margin-left: -10px;
+}
+
+</style>
+            
+</head>
+         
+    <body>
+  
+            <header>
+                <div class="center">
+                    <div class="logo">
+                        <img class="logo-siga" src="./imagens/servidor.png" alt="logo-siga"> 
+                    </div>
+                    <div class="logo-desc">
+                        <h2 class="crp"><strong class="p-sigla">Si</strong>stema de <strong class="p-sigla">G</strong>erenciamento das <strong class="p-sigla">A</strong>tas</h2>
+                    </div>
+                    <div class="logo-compras">
+                        <img class="logo-compr" src="./imagens/logo-compr.png" alt="logo-siga"> 
+                    </div>
+                    <div class="logo-gov">
+                        <img class="logo-rn" src="./imagens/logo-rn.png" alt="logo-siga"> 
+                    </div>
+                </div><!--center-->
+            </header>
+        
+            <div class="container">
+                <div class="content first-content">
+                    <div class="first-column">
+                        <img class="img-login" src="imagens/login.png" alt="Comissão">
+                         <h2 class="title-primary">Olá!</h2>
+                        <p class="description">Insira seus dados para iniciar a sessão.</p>
+                        
+                </div><!--primeira coluna-->
+                    <div class="second-column">
+                        <h2 class="title-login">Login</h2>
+                        <form action="../crpRegistro/login/testLogin.php" method="POST">
+                            <label class="label-input" for="">
+                                <i class="far fa-user icon-modify"></i>
+                                <input class="inputUsuario" type="text" name="usuario" placeholder="Usuário">
+                            </label><br>
+                            <label class="label-input" for="">
+                                <i class="fas fa-lock icon-modify"></i>
+                                <input class="inputSenha" type="password" name="senha" placeholder="Senha" id="senha">
+                                    <button type="button" class="btn-pass" onclick="mostrarSenha()">
+                                        <i class="fas fa-eye"></i>
+                                    </button>
+                             </label>
+                             <br><br>
+                             <label class="label-input" for="">
+                                <input class="inputSubmit" type="submit" name="submit" value="Enviar"> 
+                             </label><br><br>
+                        </form>
+                        <p class="p-help">Está com problemas?
+                            <br>
+                            Ligue para <strong>(xx) xxxx-xxxx</strong>
+                        </p>
+                    </div><!--segunda coluna-->
+                </div><!--página de login-->
+            </div>
+         
+            <script>
+                function mostrarSenha() {
+                    var tipo = document.getElementById("senha");
+                    if (tipo.type == "password") {
+                        tipo.type = "text";
+                    } else {
+                        tipo.type = "password";
+                    }
+                }
+            </script>
+          <section class="main">
+        
+          </section><!--main-->
+
+</body>
+</html>

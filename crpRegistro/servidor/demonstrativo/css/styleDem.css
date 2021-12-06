@@ -1,0 +1,12 @@
+
+.row .g-3{
+    height: auto;
+    width: 100%;
+    padding: 10px 40px;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+.g-3{
+    background-color: #fff !important;
+}
